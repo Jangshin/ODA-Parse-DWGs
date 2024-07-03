@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ExServices">
+      <UniqueIdentifier>{f912cd64-0f19-4919-8d2c-c8548b4d04e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reader">
+      <UniqueIdentifier>{e916b8af-54cc-40ad-b6be-b1b1ccc4bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Writer">
+      <UniqueIdentifier>{6438a0ea-fe72-4840-bf53-8e3e6cd9ea8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{63dc50e2-a36c-4654-b3bf-8b022a2fcd0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DWGReadWriteOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExDgnFileBuf.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExDgnServices.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExFileUndoController.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExGiRasterImage.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExKWIndex.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExPrintConsole.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExStringIO.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExSystemServices.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExUndoController.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\RxSystemServicesImpl.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="ODAInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExServices\ExHostAppServices.cpp">
+      <Filter>ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JSON\src\lib_json\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JSON\src\lib_json\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JSON\src\lib_json\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DWGReader.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ExServices\ExDgnServices.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExEdBaseIO.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExEdInputParser.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExFileUndoController.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExGiRasterImage.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExKWIndex.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExPrintConsole.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExStringIO.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExSystemServices.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExTrackers.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExTtfFileNameByDescriptor.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExUndoController.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\OdFileBuf.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\RxSystemServicesImpl.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\StdAfx.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="ODAInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExServices\ExHostAppServices.h">
+      <Filter>ExServices</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\allocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\assertions.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\config.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\json_features.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\value.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\version.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\include\json\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JSON\src\lib_json\json_tool.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DWGReader.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="odaInclude.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DWGReadWriteOperator.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\JSON\src\lib_json\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
