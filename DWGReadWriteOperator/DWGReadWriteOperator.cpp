@@ -10,7 +10,7 @@ int main()
     std::cout << "Hello World!\n";
 
     DWGReader reader;
-    if (reader.ReadFile("D:\\赤水站施工图无签名版20240322.dwg"))
+    if (reader.ReadFile("D:\\无签名版20240322.dwg"))
     {
         reader.VisitEntity();
     }
